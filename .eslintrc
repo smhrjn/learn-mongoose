@@ -1,0 +1,34 @@
+{
+  "extends": ["google"],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+      "html"
+  ],
+  "rules": {
+    "arrow-parens":"off",
+    "comma-dangle": "off",
+    "constructor-super": "warn",
+    "func-names": ["error", "never"],
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "windows"],
+    "max-len": "off",
+    "no-const-assign": "warn",
+    "no-tabs": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "object-curly-spacing": ["error", "always"],
+    "require-jsdoc": "off",
+    "semi": ["error", "always", {"omitLastInOneLineBlock": true}],
+    "valid-typeof": "warn"
+  }
+}
